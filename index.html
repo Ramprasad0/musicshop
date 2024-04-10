@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Music Instruments Shop</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to bottom, #f6d365, #fda085);
+        color: #333;
+    }
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 10px 0;
+        text-align: center;
+    }
+    nav {
+        margin-top: 10px;
+    }
+    .container {
+        max-width: 800px;
+        margin: auto;
+        padding: 20px;
+        background-color: rgba(255, 255, 255, 0.8); 
+        border-radius: 8px; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    }
+    .instruments {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .instrument {
+        border: 2px solid ; 
+        margin: 10px;
+        padding: 20px;
+        background-color: #fff; 
+        text-align: center;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+        border-radius: 10px; 
+    }
+    .instrument img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+    }
+    .instrument h3 {
+        margin: 20px 0;
+        
+    }
+    .price {
+        font-weight: bold;
+        color: #4caf50; 
+        font-size: 1.2em; 
+    }
+    .contact-info {
+        margin-top: 30px;
+        background-color: rgba(255, 255, 255, 0.8); 
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
+    }
+    .contact-info p {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Music Instruments Shop</h1>
+    <nav>
+        <a href="#instruments">Instruments</a> |
+        <a href="#reviews">Reviews</a> |
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div id="instruments" class="container">
+    <h2>Instruments</h2>
+    <div class="instruments">
+        <div class="instrument">
+            <img src="https://yamaha.ndcdn.in/media/catalog/product/cache/9e0f31af0cdc06df956748b13dabad87/c/4/c40mii.png" alt="Guitar">
+            <h3>Guitar</h3>
+            <p class="price">$200</p>
+        </div>
+
+        <div class="instrument">
+            <img src="https://image.made-in-china.com/2f0j00dhkcJgLPklqv/61-Key-Standard-Piano-Keyboard-Musical-Instruments.webp" alt="Keyboard">
+            <h3>Keyboard</h3>
+            <p class="price">$300</p>
+        </div>
+
+        <div class="instrument">
+            <img src="https://www.yamaha.com/yamahavgn/PIM/Images/19033_12073_1_1200x1200_58b52730f684c183775385a3b54a107e.jpg" alt="Violin">
+            <h3>Violin</h3>
+            <p class="price">$400</p>
+        </div>
+
+        <div class="instrument">
+            <img src="https://4.imimg.com/data4/NG/EM/MY-35964099/musical-trumpet.jpg" alt="Trumpet">
+            <h3>Trumpet</h3>
+            <p class="price">$250</p>
+        </div>
+    </div>
+</div>
+
+<div id="contact" class="container contact-info">
+    <h2>Contact Us</h2>
+    <p>If you have any questions or inquiries, please feel free to contact us:</p>
+    <p>Email: info@musicinstrumentshop.com</p>
+    <p>Phone: +1 234 567 8901</p>
+    <p>Address: 123 Music Street, Cityville, Country</p>
+</div>
+
+</body>
+</html>
